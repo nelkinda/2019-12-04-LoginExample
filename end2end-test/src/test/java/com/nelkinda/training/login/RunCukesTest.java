@@ -5,8 +5,7 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @CucumberOptions(
-        features="../features",
-        tags="~@wip"
+        features="../features/Login.feature"
 )
 @RunWith(Cucumber.class)
 public class RunCukesTest {
